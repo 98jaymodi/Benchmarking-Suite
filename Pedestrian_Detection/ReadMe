@@ -1,0 +1,23 @@
+Purpose: Detects number of pedestrian for a given input. Input can be given in the format of Video, image or Directory(containing images).
+
+Specifications: Program is implemented in C++. The code uses HOG Descriptor method of object detection and is implemented using OpenCV 			library.
+
+Usage: For Raspberry Pi & Ubuntu
+
+	To Compile using opencv library:	g++ pedestrian_detection.cpp -o program $(pkg-config --cflags --libs opencv)
+	To run the code for 
+		1. Video input: 		./program video=./video_name.avi
+		2. Image input			./program image=./image_name.bmp
+		3. Input from camera            ./program camera=camera_id
+	   	4. Directory			./program directory=./path_to_directory
+
+
+Parameters: 
+	1. Scaling factor
+	2. Win Stride
+	3. Padding
+	
+
+Citations:
+	Source of Code: By Steven Puttemans(Git URL: https://github.com/opencv/opencv/blob/master/samples/cpp/peopledetect.cpp)
+	Source of Datasets: Dalmer Pedestrian Benchmark Datasets (http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html)	

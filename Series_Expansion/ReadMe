@@ -1,0 +1,16 @@
+Purpose: To calculate values of sine, cosine and exp using Series expansion
+
+Specifications: Implemented in c++, these programs use the basic mathematical concepts and formulas of series expansion
+
+Usage: Compile using any c++ compiler
+	To run: Run the compiled file with following inputs as arguments: 
+			1. Angle(in degrees; in case of Sine and Cosine) or Float(whose exp need to be calculated)
+			2. n (as int)(Number of terms)
+
+Parameter: n, Number of terms of series expansion to be used for calculation
+
+Citations: 
+	Source for Code: 
+			Sine: https://www.codingconnect.net/cpp-program-sine-series/
+			Cosine: https://www.codingconnect.net/cpp-program-cosine-series/
+			Exponential: https://www.codingconnect.net/cpp-program-exponential-series/ 
